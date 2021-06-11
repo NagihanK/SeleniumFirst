@@ -45,9 +45,9 @@ namespace SeleniumFirst
             // SelectElement select = new SelectElement() --> bunu boyle yazacagina if icine atio new selelectElement die  cunku paremeter de sorun oluo 
 
             if (elementType == "id")
-                new SelectElement(driver.FindElement(By.Id(element))).SelectByText(value);
+                new SelectElement(driver.FindElement(By.Id(element))).SelectByText(elementType);
             if (elementType == "LinkText")
-                new SelectElement(driver.FindElement(By.Name(element))).SelectByText(value);
+                new SelectElement(driver.FindElement(By.Name(element))).SelectByText(elementType);
 
         }
     }

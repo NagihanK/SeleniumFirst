@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SeleniumFirst
+namespace SeleniumF2
 {
-    public partial class Program1 : Form
+    public partial class Form1 : Form
     {
-        public Program1()
+        public Form1()
         {
             InitializeComponent();
         }

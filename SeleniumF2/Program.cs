@@ -31,29 +31,22 @@ namespace SeleniumFirst
 		[Test]
 		public void TestExecute()
 		{
-
-            POM pom = new POM();
-            pom.txtInitial.SendKeys("executeautomation");
-
-
-            //eski code : usteki yeni hali   
-            /*IWebElement element = driver.FindElement(By.Name("q"));
+			/*IWebElement element = driver.FindElement(By.Name("q"));
 
 			//perform ops
 			element.SendKeys("course");
 			Console.WriteLine("Executed Test"); */
 
 
-      
 
-   /*         //select title with drop down with calling dropdown method :
-            SeleniumSetMethod.selectDropDown(driver, "TitleId", "Mr.", "Id");
+			//select title with drop down with calling dropdown method :
+			SeleniumSetMethod.selectDropDown(driver, "TitleId", "Mr.", "Id");
 			//initial box :
 			SeleniumSetMethod.EnterText(driver, "Initial", "executeautomation", "Name");
 		   //click 
 		   SeleniumSetMethod.clickmethod(driver , "Save" , "Name");
 
-*/
+
 		}
 		[TearDown]
 		public void CleanUp()
