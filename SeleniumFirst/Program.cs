@@ -32,8 +32,16 @@ namespace SeleniumFirst
 		public void TestExecute()
 		{
 
-            POM pom = new POM();
+            LoginPageObj loginPage = new LoginPageObj();
+            POM pageObjectModel = loginPage.Login("execute", "automation");
+            pageObjectModel.FillUserForm("N", "K", "Automation");
+
+
+
+
+         /*   POM pom = new POM();
             pom.txtInitial.SendKeys("executeautomation");
+            pom.buttonSave.Click();*/
 
 
             //eski code : usteki yeni hali   
