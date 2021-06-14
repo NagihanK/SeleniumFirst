@@ -10,5 +10,3 @@ namespace SeleniumFirst
     {
     }
 }
-public object PropertiesCollection { get; private set; }
-    }
